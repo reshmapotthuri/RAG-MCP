@@ -1,0 +1,8 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+# @address=Dallas,TX
+# @apikey=66c3688b0552c111391181zfte4bc39
+@address=Bangalore,India
+@apikey=692050c4c7c1c105162737nrx6cb3c7
+
+GET  https://geocode.maps.co/search?q={{address}}&api_key={{apikey}}

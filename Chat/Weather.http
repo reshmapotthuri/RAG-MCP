@@ -1,0 +1,17 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+
+# GET https://api.weather.gov/points/32.882030,-96.781899
+GET https://api.open-meteo.com/v1/forecast?latitude=12.9716&longitude=77.5946&current_weather=true
+User-Agent: myapplication-udemy-course
+accept: application/geo+json
+
+###
+
+# GET https://api.weather.gov/gridpoints/FWD/90,109/forecast
+GET https://api.open-meteo.com/v1/forecast?latitude=12.9716&longitude=77.5946&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=auto
+User-Agent: myapplication-udemy-course
+accept: application/geo+json
+
+
+
